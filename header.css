@@ -7,8 +7,8 @@
 #header .header_left{
   background: maroon;
 }
-#header .header_left i{
-  background: violet;
+#header .header_left .left_menu{
+  background: yellow;
   padding: 0 25px 0 0;
 }
 #header .header_left img{
@@ -16,18 +16,19 @@
   display: block;
   padding: 0 70px 0 0;
 }
+#header .header_left form{
+}
 #header .header_left form input{
   padding: 0 0 0 10px;
   width: 590px;
   height: 30px;
 }
 #header .header_left form button{
-  width: 70px;
+  width: 60px;
   height: 30px;
-  padding: 0 0 0 20px;
 }
 #header .header_left form button i{
-  font-size: 18px;
+  font-size: 20px;
 }
 #header .header_right{
   background: pink;
@@ -36,4 +37,46 @@
 #header .header_right img{
   width: 35px;
   border-radius: 100%;
+}
+
+
+@media(max-width:1090px){
+}
+
+
+@media(max-width:875px){
+}
+
+
+@media(max-width:660px){
+#header{
+  background: red;
+}
+#header .header_left{
+  background: maroon;
+}
+#header .header_left i{
+  background: violet;
+}
+#header .header_left img{
+  background: deeppink;
+}
+#header .header_left form{
+  display: none;
+}
+#header .header_left form input{
+}
+#header .header_left form button{
+}
+#header .header_left form button i{
+}
+#header .header_right{
+  background: pink;
+}
+#header .header_right img{
+}
+}
+
+
+@media(max-width:1090px){
 }
