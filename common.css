@@ -1,3 +1,15 @@
 *{
   box-sizing: border-box;
 }
+
+/* display */
+.justify_between{
+  display: flex;
+  justify-content: space-between;
+}
+.align_center{
+  display: flex;
+  align-items: center;
+}
+
+/* font-size */

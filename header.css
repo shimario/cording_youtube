@@ -1,14 +1,33 @@
-header{
+#header{
   background: red;
   color: #fafafa;
-  display: flex;
-  justify-content: space-between;
+  height: 60px;
+  padding: 0 25px;
 }
-header .header_left{
+#header .header_left{
   background: maroon;
 }
-header .header_left img{
-  width: 100px;
+#header .header_left i{
+  background: violet;
+  font-size: 20px;
+  padding: 0 25px 0 0;
 }
-header .header_right{
+#header .header_left img{
+  background: deeppink;
+  display: block;
+  padding: 0 70px 0 0;
+}
+#header .header_left input{
+  padding: 0 0 0 10px;
+  width: 590px;
+  height: 30px;
+  font-size: 16px;
+}
+  #header .header_right{
   background: pink;
+  width: 180px;
+}
+#header .header_right img{
+  width: 35px;
+  border-radius: 100%;
+}
