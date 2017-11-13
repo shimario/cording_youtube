@@ -9,7 +9,6 @@
 }
 #header .header_left i{
   background: violet;
-  font-size: 20px;
   padding: 0 25px 0 0;
 }
 #header .header_left img{
@@ -17,13 +16,20 @@
   display: block;
   padding: 0 70px 0 0;
 }
-#header .header_left input{
+#header .header_left form input{
   padding: 0 0 0 10px;
   width: 590px;
   height: 30px;
-  font-size: 16px;
 }
-  #header .header_right{
+#header .header_left form button{
+  width: 70px;
+  height: 30px;
+  padding: 0 0 0 20px;
+}
+#header .header_left form button i{
+  font-size: 18px;
+}
+#header .header_right{
   background: pink;
   width: 180px;
 }
