@@ -1,0 +1,14 @@
+header{
+  background: red;
+  color: #fafafa;
+  display: flex;
+  justify-content: space-between;
+}
+header .header_left{
+  background: maroon;
+}
+header .header_left img{
+  width: 100px;
+}
+header .header_right{
+  background: pink;
