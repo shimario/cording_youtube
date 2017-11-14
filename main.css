@@ -1,3 +1,16 @@
-main{
+#main{
   background: blue;
+  padding: 23px 114px;
+}
+#main .main_top{
+  background: green;
+  color: gray;
+  padding: 0 0 24px 0;
+}
+#main .main_bottom{
+  background: red;
+}
+#main .main_bottom .main_bottom_bunner{
+  background: yellow;
+  padding: 0 0 24px 0;
 }
