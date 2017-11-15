@@ -7,6 +7,10 @@
   display: flex;
   justify-content: center;
 }
+.justify_around{
+  display: flex;
+  justify-content: space-around;
+}
 .justify_between{
   display: flex;
   justify-content: space-between;

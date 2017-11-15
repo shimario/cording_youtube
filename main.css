@@ -1,16 +1,29 @@
 #main{
   background: blue;
-  padding: 23px 114px;
+  padding: 23px 0;
 }
-#main .main_top{
+#main .container{
+  background: orange;
+  width: 1070px;
+  margin: 0 auto;
+}
+#main .container .main_top{
   background: green;
   color: gray;
   padding: 0 0 24px 0;
 }
-#main .main_bottom{
+#main .container.main_bottom{
   background: red;
 }
-#main .main_bottom .main_bottom_bunner{
+#main .container .main_bottom .main_bottom_bunner{
   background: yellow;
   padding: 0 0 24px 0;
+}
+#main .container .main_bottom .videos{
+  background: greenyellow;
+}
+#main .container .main_bottom .videos .videos_area{
+  background: violet;
+  width: 210px;
+  height: 204px;
 }
