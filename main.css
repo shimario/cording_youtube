@@ -27,3 +27,35 @@
   width: 210px;
   height: 204px;
 }
+#main .container .main_bottom .videos .videos_area .video_panel img{
+  width: 100%;
+  height: 110px;
+}
+#main .container .main_bottom .videos .videos_area .video_text{
+  width: 100%;
+  height: 94px;
+  padding: 5px 0 10px 0;
+  flex-direction: column;
+}
+#main .container .main_bottom .videos .videos_area .video_text .video_text_top{
+  background: purple;
+}
+#main .container .main_bottom .videos .videos_area .video_text .video_text_bottom{
+  background: royalblue;
+  color: grey;
+}
+
+@media(max-width:1090px){
+}
+
+
+@media(max-width:875px){
+}
+
+
+@media(max-width:660px){
+}
+
+
+@media(max-width:1090px){
+}
