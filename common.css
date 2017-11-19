@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+body{
+  background: rgb(244, 245, 245);
+}
+
 /* color */
 .gray_revel1{
   color: rgb(172, 171, 171);

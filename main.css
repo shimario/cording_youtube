@@ -1,8 +1,5 @@
 #main{
-  height: 660px;
-  background: rgb(244, 245, 245);
   padding: 27px 0;
-  box-shadow: 0 0 4px rgba(0,0,0,.14), 0 4px 8px rgba(0,0,0,.28);
 }
 #main .container{
   width: 1070px;
