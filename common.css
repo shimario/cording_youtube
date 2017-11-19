@@ -2,10 +2,22 @@
   box-sizing: border-box;
 }
 
+/* color */
+.gray_revel1{
+  color: rgb(172, 171, 171);
+}
+
 /* display */
+.flex{
+  display: flex;
+}
 .justify_center{
   display: flex;
   justify-content: center;
+}
+.justify_around{
+  display: flex;
+  justify-content: space-around;
 }
 .justify_between{
   display: flex;
@@ -17,6 +29,15 @@
 }
 
 /* font-size */
+.font_size_13{
+  font-size: 13px;
+}
+.font_size_14{
+  font-size: 14px;
+}
+.font_size_15{
+  font-size: 15px;
+}
 .font_size_16{
   font-size: 16px;
 }
