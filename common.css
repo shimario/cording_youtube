@@ -1,7 +1,9 @@
 *{
   box-sizing: border-box;
 }
-.is{
+
+/* color */
+.gray_revel1{
   color: rgb(172, 171, 171);
 }
 
