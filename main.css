@@ -1,61 +1,87 @@
 #main{
-  background: blue;
-  padding: 23px 0;
+  height: 660px;
+  background: rgb(244, 245, 245);
+  padding: 27px 0;
+  box-shadow: 0 0 4px rgba(0,0,0,.14), 0 4px 8px rgba(0,0,0,.28);
 }
 #main .container{
-  background: orange;
   width: 1070px;
   margin: 0 auto;
 }
 #main .container .main_top{
-  background: green;
   color: gray;
-  padding: 0 0 24px 0;
-}
-#main .container.main_bottom{
-  background: red;
+  padding: 0 0 30px 0;
 }
 #main .container .main_bottom .main_bottom_bunner{
-  background: yellow;
-  padding: 0 0 24px 0;
+  padding: 0 0 27px 0;
 }
 #main .container .main_bottom .videos{
-  background: greenyellow;
+  flex-wrap: wrap;
 }
 #main .container .main_bottom .videos .videos_area{
-  background: violet;
-  width: 210px;
+  width: 214px;
   height: 204px;
+  padding: 0 4px 0 0;
+}
+#main .container .main_bottom .videos .videos_area:nth-child(5n){
+  padding-right: 0;
 }
 #main .container .main_bottom .videos .videos_area .video_panel img{
   width: 100%;
-  height: 110px;
+  height: 118px;
 }
 #main .container .main_bottom .videos .videos_area .video_text{
   width: 100%;
   height: 94px;
-  padding: 5px 0 10px 0;
+  padding: 9px 0 10px 0;
   flex-direction: column;
-}
-#main .container .main_bottom .videos .videos_area .video_text .video_text_top{
-  background: purple;
+  line-height: 17px;
 }
 #main .container .main_bottom .videos .videos_area .video_text .video_text_bottom{
-  background: royalblue;
   color: grey;
+  line-height: 20px;
 }
 
 @media(max-width:1090px){
+#main .container{
+  width: 860px;
+}
+#main .container .main_bottom .videos .videos_area{
+  width: 215px;
+}
+#main .container .main_bottom .videos .videos_area:nth-child(4n){
+  padding-right: 0;
+}
 }
 
 
 @media(max-width:875px){
+#main .container{
+  width: 640px;
+}
+#main .container .main_bottom .videos .videos_area{
+  width: 213px;
+}
+#main .container .main_bottom .videos .videos_area:nth-child(3n){
+  padding-right: 0;
+}
+#main .container .main_bottom .videos .videos_area:nth-child(3n + 1){
+  padding-right: 4px;
+}
 }
 
 
 @media(max-width:660px){
+#main .container{
+  width: 400px;;
 }
-
-
-@media(max-width:1090px){
+#main .container .main_bottom .videos .videos_area{
+  width: 200px;
+}
+#main .container .main_bottom .videos .videos_area:nth-child(2n){
+  padding-right: 0;
+}
+#main .container .main_bottom .videos .videos_area:nth-child(2n + 1){
+  padding-right: 4px;
+}
 }
